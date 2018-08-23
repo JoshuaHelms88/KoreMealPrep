@@ -1,0 +1,521 @@
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+                       /* general code */
+
+
+body {
+  background-image: url(https://previews.123rf.com/images/alliedcomputergraphics/alliedcomputergraphics1204/alliedcomputergraphics120400247/13102978-concrete-seamless-texture-tile.jpg);
+  box-shadow: inset 10px 10px 500px #FFD67F;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.headline {
+  font-family: 'Nunito', sans-serif;
+}
+
+#sectionHeader {
+  font-family: 'Indie Flower', cursive;
+  font-size: 6rem;
+}
+
+.page {
+  width: 92%;
+  margin: 50px auto 0 auto;
+  background-color: ivory;
+  height: auto;
+}
+
+.flex  {
+  display: flex;
+}
+
+p {
+  quotes: """ """ "'" "'";
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+h3 {
+  margin-bottom: 4rem;
+  text-decoration: underline;
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+h5 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.row {
+  width: 100%;
+}
+
+                     /* navigation menu */
+
+
+
+#navMenu    {
+  display: none;
+  width: 10%;
+  height: 150px;
+  z-index: 10;
+  position: absolute;
+}
+
+#navHeader {
+  justify-content: space-between;
+}
+
+#navToggle {
+  transition-duration: 200ms;
+}
+
+#navX {
+  transition-duration: 200ms;
+}
+
+.navbar-brand  {
+  height: 50px;
+}
+
+.logo {
+  color: yellow;
+  font-size: 25px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  transition: all 600ms ease-out 50ms;
+}
+
+.logo:hover {
+  color: lightgreen;
+  transition: all 600ms ease-out 50ms;
+}
+
+.logo:active {
+  color: red;
+  transition: all 200ms ease-out 0;
+}
+
+#navMenu ul {
+  background-color: rgba(0,0,0,.75);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  width: auto;
+  height: auto;
+  z-index: 10;
+  margin-top: 2px;
+}
+
+ul li {
+  font-size: 20px;
+  margin: 1rem 5rem 1rem auto;
+  padding: 1rem 5rem 1rem auto;
+  width: 100%;
+  text-align: left;
+  z-index: 10;
+}
+
+li a {
+  color: gold;
+  margin-left: 2rem;
+  z-index: 10;
+}
+
+li a:hover {
+  color: yellow;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,.75);
+  border-bottom: 2px solid goldenrod;
+  z-index: 10;
+}
+
+.button {
+  color: gold;
+  background-color: rgba(0,0,0,0);
+  margin: 1rem 0;
+  padding: 0 1rem;
+  z-index: 10;
+}
+
+.button:hover {
+  background-color: gold;
+  color: rgba(0,0,0,.5);
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: silver;
+  color: darkgrey;
+}
+
+
+                          /* jumbotron fluid */
+
+
+
+
+
+.jumbotron  {
+  box-shadow: inset 0 0 150px #ffeb7f;
+  background-size: cover;
+  width: 100%;
+  color: rgb(68, 47, 36);
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  background-color:black;
+}
+
+.jumbotron video {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  top: 0;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  opacity:0.4;
+}
+.jumbotron .container {
+  z-index: 2;
+  position: relative;
+}
+
+.jumbotron img {
+  width: 35%;
+  margin: 4rem auto;
+}
+
+#scroll {
+  font-size: 4rem;
+  color: ivory;
+  padding: auto;
+}
+
+.scrollIntro {
+  text-align: right;
+  margin-right: -2rem;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+.wordScroll {
+  text-align: left;
+  height: 56.8px;
+  overflow: hidden;
+}
+
+.about {
+  color: ivory;
+  margin: 20px auto;
+  width: 80%;
+}
+
+
+
+                            /* How to section */
+
+
+
+#how {
+  padding-top: 50px;
+  margin-top: -50px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.howTos {
+  border: 1.5px solid goldenrod;
+  border-radius: 15px;
+  background-color: rgba(155,155,155,0.2);
+  height: 220px;
+  margin: auto 1rem 2rem 1rem;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  transition: all 600ms ease-out 50ms;
+}
+
+.howTos a {
+  color: black;
+  text-decoration: none;
+}
+
+.howTos:hover {
+  box-shadow: 1px 4px 20px #9b9b9b;
+  transition: all 600ms ease-out 50ms;
+}
+
+.howTos:active {
+  box-shadow: inset 0 0 40px #9b9b9b;
+}
+
+.howTos a:hover {
+  text-decoration: none;
+}
+
+.howFlex {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.howTos i {
+  margin-top: 2rem;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+
+font-size: 8rem;
+
+}
+
+                  /* plans */
+
+
+#plans {
+  padding-top: 50px;
+  margin-top: -50px;
+  width: 100%;
+  background-image: url(plans-background.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100%;
+  width:100%;
+  color: black;
+}
+
+.plans {
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.basics {
+  width: 40%;
+}
+
+.basics:hover {
+  transition: all 400ms ease-in-out 150ms;
+  transform: scale(1.1);
+  border-width: thick;
+  background-color: rgba(183, 255, 181, 0.9);
+  color: rgb(68, 47, 36);
+}
+
+#pro:hover {
+  transition: all 400ms ease-in-out 150ms;
+  transform: scale(1.1);
+  border-width: thick;
+  background-color: rgba(255, 214, 127, 0.9);
+  color: rgb(68, 47, 36);
+}
+
+#elite:hover {
+  transition: all 400ms ease-in-out 150ms;
+  transform: scale(1.07);
+  border-width: thick;
+  background-color: rgba(255, 178, 178, 0.9);
+  color: rgb(68, 47, 36);
+}
+
+.plan img {
+  width: 75%;
+  height: auto;
+  margin: 1.5rem auto;
+  border-radius: 15px;
+}
+
+.plan {
+  height: 300px;
+  border: 1px solid #49e045;
+  border-radius: 15px;
+  background-color: rgba(183, 255, 181, 0.75);
+  flex-direction: row;
+  margin: 1rem auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  transition: all 350ms ease-in-out 200ms;
+}
+
+.planLeft {
+  width: 30%;
+  border-right: 2px dotted goldenrod;
+  margin: 2rem 1rem;
+  padding-right: 1rem;
+  height: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.planRight {
+  width: 30%;
+  height: auto;
+}
+
+#pro {
+  background-color: rgba(255, 214, 127, 0.75);
+  border-color: #f9c75c;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+#proImg {
+  width: 35%;
+}
+
+#elite {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 1rem auto 3rem auto;
+  padding: auto;
+  width: 90%;
+  height: 450px;
+  background-color: rgba(255, 178, 178, 0.75);
+  border-color: rgb(252, 113, 113)
+}
+
+#elite .planRight {
+  padding: auto;
+  margin: auto;
+}
+
+#elite .planLeft {
+  padding: auto;
+  margin: auto;
+}
+
+#eliteImg {
+  width: 35%;
+  height: 70%;
+  padding: auto;
+  margin: auto;
+}
+
+#eliteTop {
+  height: 100%;
+}
+
+#eliteBlurb {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1.5px dotted goldenrod;
+}
+
+#eliteBlurb p {
+  font-size: 2rem;
+}
+
+                    /* menu */
+
+#menu {
+  padding-top: 50px;
+  margin-top: -50px;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.menuItem {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 1rem;
+  width: 20%;
+}
+
+.menuItem:hover {
+  box-shadow: 1px 4px 20px #9b9b9b;
+  border-width: 1.5px;
+  width: 21%;
+  transition: all 300ms ease-out 50ms;
+}
+
+.menuItem img {
+  width: 100%;
+  height: 25%;
+  border-radius: 15px;
+}
+
+.menuFlex {
+align-items: center;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+
+
+                                  /* reviews */
+
+#reviews {
+  background: linear-gradient(#91bbff, #f9f9f9, #FFD67F);
+  width: 100%;
+  border: 3px outset lightgrey;
+}
+
+
+.reviewScroll {
+  width: 100%;
+  padding: 10rem auto;
+  margin: 10rem auto;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.review p:first-child {
+  font-size: 6rem;
+  line-height: 10rem;
+}
+
+.review p:first-child::before {
+  content: open-quote;
+}
+
+.review p:first-child::after {
+  content: close-quote;
+}
+
+.review p:last-child {
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+
+             /* contact */
+
+#contacts {
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.contact {
+  flex-direction: column;
+  margin: 3rem;
+}

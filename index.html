@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kore Meal Plan</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="font\flaticon.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+
+
+  <body>
+
+
+                              <!-- navbar -->
+
+
+      <nav class="navbar navbar-default navbar-fixed-top navBarTop">
+        <div class="container-fluid flex" id="navHeader">
+          <div class="btn-default button hide" id="navX">
+            <i class="fa fa-times fa-2x"></i>
+          </div>
+          <div class="btn-default button" id="navToggle">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="navbar-brand">
+            <a href="#home"><span class="glyphicon glyphicon-apple logo"></span></a>
+          </div>
+          <div class="placeHolder">
+          </div>
+        </div>
+      </nav>
+      <div class="nav navbar-nav" id="navMenu">
+        <ul>
+          <!-- main page -->
+          <li class="menuClose headline"><a href="#home">Home</a></li>
+          <!-- explaination of order process and FAQs -->
+          <li class="menuClose headline"><a href="#how">How It Works</a></li>
+          <!-- summary of plans -->
+          <li class="menuClose headline"><a href="#plans">Plans</a></li>
+          <!-- menu items for week -->
+          <li class="menuClose headline"><a href="#menu">Menu</a></li>
+          <!-- reviews -->
+          <li class="menuClose headline"><a href="#reviews">What People Are Saying</a></li>
+          <!-- contact info for Kora (social media) -->
+          <li class="menuClose headline"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="container-fluid page" >
+
+
+                        <!-- jumbotron -->
+
+
+        <div class="jumbotron jumbotron-fluid" id="home">
+          <video autoplay muted loop poster="media\jumbotron-background.jpeg">
+            <source src="media\JumboVid.mp4" type="video/mp4">
+          </video>
+          <div class="container">
+            <img src="media\logo.png" alt="Kore Meal Plan Logo">
+            <div class="row">
+              <span class="col-md-2 col-sm-0"></span>
+              <p class="scrollIntro col-md-5 col-sm-7 headline" id="scroll">The Center Of Your</p>
+              <div class="wordScroll col-md-3 col-sm-5" id="scroll">
+                <div class="headline">Performance</div>
+                <div class="headline">Goals</div>
+                <div class="headline">Health</div>
+                <div class="headline">Lifestyle</div>
+              </div>
+            </div>
+            <div class="container-fluid about desktop">
+              <h2>You want to reach your goals, and you deserve the best.</h2>
+                <p>Whether you're an athlete, an actor, or you just want to be your healthiest self; <strong>Kore Meals</strong>
+                   is going to help you reach your goals through a balanced, fitness-focused diet.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+                            <!-- How to -->
+
+
+
+        <div class="container" id="how">
+          <h3 class="headline" id="sectionHeader">How It Works</h3>
+          <div class="row flex howFlex">
+            <div class="howTos flex col-md-2"><a href="#plans">
+              <i class="flaticon-menu howToIcon" aria-hidden="true"></i>
+              <h5 class="headline">CHOOSE</h5>
+              <p>the Kore Meals Plan that works best for you.</p>
+            </div></a>
+            <i class="flaticon-next howToIcon" aria-hidden="true"></i>
+            <div class="howTos flex col-md-2"><a href="#">
+              <i class="flaticon-web-page howToIcon" aria-hidden="true"></i>
+              <h5 class="headline">LOGIN</h5>
+              <p>and let Kore Meals keep track of your plan.</p>
+            </div></a>
+            <i class="flaticon-next howToIcon" aria-hidden="true"></i>
+            <div class="howTos flex col-md-2"><a href="#">
+              <i class="flaticon-delivery howToIcon" aria-hidden="true"></i>
+              <h5 class="headline">SUBSCRIBE</h5>
+              <p>and get your meals delivered right to your door.</p>
+            </div></a>
+            <i class="flaticon-next howToIcon" aria-hidden="true"></i>
+            <div class="howTos flex col-md-2"><a href="#reviews">
+              <i class="flaticon-muscle howToIcon" aria-hidden="true"></i>
+              <h5 class="headline">ENJOY</h5>
+              <p>our fresh, delicious meals.</p>
+            </div></a>
+          </div>
+        </div>
+
+
+
+                        <!-- plans -->
+
+
+
+
+        <div class="container" id="plans">
+          <h3 class="headline" id="sectionHeader">Plans</h3>
+          <div class="row flex plans">
+            <div class="col-lg-5 flex plan basics">
+              <div class="planLeft flex">
+                <h4 class="headline">Basic</h4>
+                <p>$12/meal</p>
+              </div>
+              <div>
+                <img src="media\basic.jpg" alt="basic meal plan">
+                <p>Choose your individual meals from the weekly menu</p>
+                <p>Delivery 1x/week</p>
+              </div>
+            </div>
+            <div class="col-lg-5 flex plan basics">
+              <div class="planLeft flex">
+                <h4 class="headline">Entry Level Plan</h4>
+                <p>$110 Weekly Subscription</p>
+                <p>10 Meals</p>
+              </div>
+              <div>
+                <img src="media\entry.jpg" alt="basic meal plan">
+                <p>Choose your individual meals from the weekly menu</p>
+                <p>Delivery 2x/week for freshness</p>
+              </div>
+            </div>
+          </div>
+          <div class="row flex plans">
+            <div class="container-fluid col-lg-10 flex plan" id="pro">
+              <div class="planLeft flex">
+                <h4 class="headline">Personalized Meal Plan</h4>
+                <p>$300 Weekly Subscription</p>
+                <p>15 Meals</p>
+              </div>
+              <img id="proImg" src="media\pro.jpg" alt="basic meal plan">
+              <div class="planRight">
+                <p>Choose your combination of protein/veggie/carb from our listed options</p>
+                <p>Delivery 2x/week for freshness</p>
+              </div>
+            </div>
+          </div>
+          <div class="row plans">
+            <div class="row flex plan" id="elite">
+              <div class=" row col-lg-9 flex" id="eliteTop">
+                <div class="planLeft flex">
+                  <h4>ELITE Performance Ready Plan</h4>
+                  <p>Monthly program</p>
+                  <p>($3000-$3500)</p>
+                  <p>4-6 meals a day as needed</p>
+                </div>
+                <img id="eliteImg" src="media\elite.jpeg" alt="Elite Meal Plan">
+                <div class="planRight">
+                  <p>Macronutrient calculated/diet specific</p>
+                  <p>Choose all carbs/veggie/protein combos</p>
+                  <p>Organic products</p>
+                  <p>Cooked fresh/ Daily delivery</p>
+                </div>
+              </div>
+              <div id="eliteBlurb">
+                <p>Tailored to client goals for an upcoming sport season, acting role, or competition.</p>
+                <p>Coordinated plan w/ your trainer/coach and adjusted as necessary</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+                          <!-- menu -->
+
+
+
+        <div class="container" id="menu">
+          <h3 class="headline" id="sectionHeader">Available Meals</h3>
+          <div class="row flex menuFlex">
+            <div class="col-lg-2 col-md-4 col-sm-5 col-xs-12 menuItem">
+              <H5 class="headline">menu item</h5>
+              <img src="media\beef.jpg" alt="food item">
+              <p>description</p>
+              <p>nutritional information</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5 col-xs-12 menuItem">
+              <H5 class="headline">menu item</h5>
+              <img src="media\beef.jpg" alt="food item">
+              <p>description</p>
+              <p>nutritional information</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5 col-xs-12 menuItem">
+              <H5 class="headline">menu item</h5>
+              <img src="media\beef.jpg" alt="food item">
+              <p>description</p>
+              <p>nutritional information</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5 col-xs-12 menuItem">
+              <H5 class="headline">menu item</h5>
+              <img src="media\beef.jpg" alt="food item">
+              <p>description</p>
+              <p>nutritional information</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5 col-xs-12 menuItem">
+              <H5 class="headline">menu item</h5>
+              <img src="media\beef.jpg" alt="food item">
+              <p>description</p>
+              <p>nutritional information</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5 col-xs-12 menuItem">
+              <H5 class="headline">menu item</h5>
+              <img src="media\beef.jpg" alt="food item">
+              <p>description</p>
+              <p>nutritional information</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5 col-xs-12 menuItem">
+              <H5 class="headline">menu item</h5>
+              <img src="media\beef.jpg" alt="food item">
+              <p>description</p>
+              <p>nutritional information</p>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5 col-xs-12 menuItem">
+              <H5 class="headline">menu item</h5>
+              <img src="media\beef.jpg" alt="food item">
+              <p>description</p>
+              <p>nutritional information</p>
+            </div>
+          </div>
+        </div>
+
+
+
+                          <!-- reviews -->
+
+
+        <div class="container" id="reviews">
+          <h1 class="headline" id="sectionHeader">Reviews of Kore Meals</h1>
+          <div class="flex container reviewScroll">
+            <div class="review"><p>So convenient!</p><p>- Satisfied Customer</p><a href="instagram.com" target="_blank">@Insta</a></div>
+            <div class="review"><p>Kore Meals helped me reach my goals.</p><p>- Satisfied Customer</p><a href="instagram.com" target="_blank">@Insta</a></div>
+            <div class="review"><p>I got the body I needed right in time.</p><p>- Satisfied Customer</p><a href="instagram.com" target="_blank">@Insta</a></div>
+            <div class="review"><p>Delicious and Healthy.</p><p>- Satisfied Customer</p><a href="instagram.com" target="_blank">@Insta</a></div>
+          </div>
+        </div>
+
+
+
+                            <!-- Contacts -->
+
+
+
+        <div class="container-fluid flex" id="contacts">
+          <div class="container-fluid flex contact" id="instagram">
+            <i class="flaticon-instagram"></i>
+            <p class="headline">Company:</p>
+            <a href="https://www.instagram.com/koremealprep">@KoreMealPrep</a><br>
+            <p class="headline">Owner:</p>
+            <a href="https://www.instagram.com/Korabruno" class="headline">@Korabruno</a>
+          </div>
+          <div class="container-fluid flex contact">
+            <i class="flaticon-email"></i>
+            <p>Email:</p>
+            <a href="mailto:koremealprep@gmail.com">KoreMealPrep@gmail.com</a>
+          </div>
+        </div>
+
+
+      </div>
+
+
+                            <!-- attributes -->
+
+Font generated by <a href="http://www.flaticon.com">flaticon.com</a>.
+<p>Under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>:
+   <a data-file="005-menu" href="https://www.flaticon.com/authors/darius-dan">Darius Dan</a>,
+    <a data-file="010-next" href="https://www.flaticon.com/authors/smashicons">Smashicons</a></p>
+
+
+                            <!-- java -->
+
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="java/java.js"></script>
+  </body>
+</html>
